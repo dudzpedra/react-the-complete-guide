@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  background-color: #c2f0f0;
+  height: auto;
+  width: 75%;
+  margin: 5px auto;
+}
+h1 {
+  font-size: 40px;
+  font-family: fantasy;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid #cceecc;
+  width: 60%;
+  background-color: #d699ff;
+}
+h2 {
+  font-size: 40px;
+  font-family: fantasy;
+  margin: 10px auto;
+  padding: 10px;
+  border: 2px solid #cceecc;
+  width: 60%;
+  background-color: #d699ff;
+}
+h1:hover, h2:hover {
+  box-shadow: 0 2px 3px 3px #eee;
+  opacity: 80%;
+}
+.UserInput, .UserOutput {
+  background-color: #ffcc99;
+  width: 30%;
+  border: 2px solid #cceecc;
+  margin: 10px auto;
+  padding: 5px;
+}
+.UserInput:hover, .UserOutput:hover {
+  box-shadow: 0 2px 3px 3px #eee;
+  background-color: #d699ff;
+  opacity: 50%;
+}
+button:hover {
+  box-shadow: 0 2px 3px 3px #eee;
+  background-color: #d699ff;
+  opacity: 50%;
+}
+
